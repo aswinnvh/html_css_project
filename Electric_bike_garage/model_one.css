@@ -1,0 +1,37 @@
+body
+{
+    margin: 0;
+    background: url("evcar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    font-family: Helvetica;
+}
+
+.section
+{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, .5);
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto 0 auto;
+}
+
+.section img
+{
+    height: 250px;
+}
+
+.section h1
+{
+    /* background: rgba(0, 0, 0, .5); */
+    color: #fff;
+    margin: 0;
+}
+
+.section p
+{
+    color: #fff;
+    font-size: 20px;
+}
